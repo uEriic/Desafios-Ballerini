@@ -16,9 +16,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 /* Styles */
+footer {
+  margin-top: 200px;
+  text-align: center;
+}
+
 main {
   margin-top: 10%;
   text-align: center;
