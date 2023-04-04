@@ -1,0 +1,71 @@
+/* Text Vars */
+/* Background Vars */
+/* Global Reset CSS */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f4f4f5;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  background-color: #18181b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles */
+main {
+  margin-top: 10%;
+  text-align: center;
+  gap: 8px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-top: 25px;
+  font-size: 32px;
+}
+
+p {
+  font-size: 20px;
+  color: #a1a1aa;
+}
+
+.pesquisa {
+  margin: 10px auto;
+  background-color: #27272a;
+  color: #52525b;
+  width: 450px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.pesquisa input {
+  border: none;
+  background-color: transparent;
+  margin-left: 5px;
+  padding: 15px 0;
+  width: 80%;
+  height: 60%;
+}
+.pesquisa img {
+  transition: all 0.5s;
+}
+.pesquisa img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+/*# sourceMappingURL=styles.css.map */
